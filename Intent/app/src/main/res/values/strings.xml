@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Intent</string>
+    <string name="intent">Intent Activity</string>
+    <string name="intent_with_data">Intent Activity with Data</string>
+    <string name="intent_with_object">Intent Activity with Object</string>
+    <string name="dial_number">Dial Number</string>
+    <string name="intent_with_result">Intent Activity with Result</string>
+</resources>

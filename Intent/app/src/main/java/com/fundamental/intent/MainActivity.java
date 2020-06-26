@@ -1,15 +1,19 @@
 package com.fundamental.intent;
 
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+
+    public static final int REQUEST_CODE = 100;
 
     Button btnIntent, btnIntentData, btnIntentObject, btnDialNumber, btnIntentResult;
 
@@ -50,11 +54,43 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
 
             case R.id.btn_intent_with_object:
+                Person person = new Person();
+                person.setName("Iwon Gunawan");
+                person.setAge(19);
+                person.setCity("Bogor");
+                person.setEmail("iwongunawan@gmail.com");
+
+
+                Intent intent2 = new Intent(MainActivity.this, IntentWithObjectActivity.class);
+                intent2.putExtra(IntentWithObjectActivity.PERSON, person);
+                startActivity(intent2);
                 break;
+
             case R.id.btn_dial_number:
+                String number = "08988429390";
+                Intent intent3 = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:" + number));
+                startActivity(intent3);
                 break;
+
             case R.id.btn_intent_with_result:
+                Intent intent4 = new Intent(MainActivity.this, IntentWithResultActivity.class);
+                startActivityForResult(intent4, REQUEST_CODE);
                 break;
+        }
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+
+        if (requestCode == REQUEST_CODE) {
+            if (resultCode == IntentWithResultActivity.RESULT_CODE) {
+                int selectedValue = data.getIntExtra(IntentWithResultActivity.SELECTED_VALUE, 0);
+
+                Context context = getApplicationContext();
+                Toast.makeText(context, "selected value is " + selectedValue, Toast.LENGTH_SHORT).show();
+            }
         }
     }
 }

@@ -4,22 +4,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:layout_marginLeft="16dp"
-    android:layout_marginTop="16dp"
-    android:layout_marginRight="16dp"
-    tools:context=".HomeFragment">
+    android:paddingTop="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context=".CategoryFragment">
 
 
     <TextView
-        android:id="@+id/tv_home"
+        android:id="@+id/tv_home_fragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="20dp"
-        android:text="@string/home_fragment" />
+        android:textSize="20sp"
+        android:text="2. this Category Fragment" />
     <Button
-        android:id="@+id/btn_to_category"
+        android:id="@+id/btn_to_detail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="click to category" />
+        android:text="Click to Detail" />
+
+
+
 
 </LinearLayout>

@@ -6,7 +6,18 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89bb19ff-eae2-48cd-ab17-60e5dd1388e1" name="Default Changelist" comment="" />
+    <list default="true" id="89bb19ff-eae2-48cd-ab17-60e5dd1388e1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Fragment/app/src/main/java/com/fundamental/fragment/CategoryFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fragment/app/src/main/java/com/fundamental/fragment/DetailFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fragment/app/src/main/java/com/fundamental/fragment/OptionDialogFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fragment/app/src/main/res/layout/fragment_category.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fragment/app/src/main/res/layout/fragment_detail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Fragment/app/src/main/res/layout/fragment_option_dialog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fragment/app/src/main/java/com/fundamental/fragment/HomeFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fragment/app/src/main/java/com/fundamental/fragment/HomeFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fragment/app/src/main/res/layout/fragment_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Fragment/app/src/main/res/layout/fragment_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fragment/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Fragment/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,10 +25,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_XL_API_28_Pie" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="SOY5HQIZORCIBERO" />
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
@@ -26,12 +36,12 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fundamental/intent/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="22" column="47" lean-forward="true" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+            <state relative-caret-position="550">
+              <caret line="82" column="35" selection-start-line="82" selection-start-column="19" selection-end-line="82" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -50,7 +60,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_intent_with_result.xml">
           <provider editor-type-id="android-designer2" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
+            <state relative-caret-position="105">
               <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
             </state>
           </provider>
@@ -59,8 +69,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fundamental/intent/IntentWithResultActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="52" selection-start-line="52" selection-end-line="52" />
+            <state relative-caret-position="621">
+              <caret line="54" column="46" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -100,8 +110,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane" />
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -302,35 +312,35 @@
     <frame x="0" y="23" width="1295" height="975" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.16440542" />
-      <window_info id="Structure" side_tool="true" />
-      <window_info id="Build Variants" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="Resources Explorer" />
-      <window_info id="DB Browser" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Run" weight="0.32906976" />
-      <window_info anchor="bottom" id="Logcat" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="DB Execution Console" />
-      <window_info anchor="bottom" id="TODO" />
-      <window_info anchor="bottom" id="Debug" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Build" weight="0.32906976" />
-      <window_info anchor="bottom" id="Android Profiler" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="right" id="Device File Explorer" side_tool="true" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Gradle" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Flutter Inspector" />
-      <window_info anchor="right" id="Flutter Outline" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Flutter Performance" />
-      <window_info anchor="right" id="Preview" weight="0.31843576" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.16360734" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Build Variants" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Designer" order="5" />
+      <window_info id="Resources Explorer" order="6" />
+      <window_info id="DB Browser" order="7" />
+      <window_info id="Capture Tool" order="8" />
+      <window_info id="Favorites" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="0" weight="0.32906976" />
+      <window_info anchor="bottom" id="Logcat" order="1" />
+      <window_info anchor="bottom" id="DB Execution Console" order="2" />
+      <window_info anchor="bottom" id="TODO" order="3" />
+      <window_info anchor="bottom" id="Android Profiler" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Debug" order="5" />
+      <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Build" order="8" weight="0.32906976" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Gradle" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Flutter Inspector" order="4" />
+      <window_info anchor="right" id="Flutter Outline" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Flutter Performance" order="7" />
+      <window_info anchor="right" id="Preview" order="8" weight="0.31843576" />
     </layout>
   </component>
   <component name="editorHistoryManager">
@@ -399,22 +409,22 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_intent_with_result.xml">
       <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
+        <state relative-caret-position="105">
           <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fundamental/intent/IntentWithResultActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        <state relative-caret-position="621">
+          <caret line="54" column="46" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fundamental/intent/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="22" column="47" lean-forward="true" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+        <state relative-caret-position="550">
+          <caret line="82" column="35" selection-start-line="82" selection-start-column="19" selection-end-line="82" selection-end-column="35" />
         </state>
       </provider>
     </entry>

@@ -8,6 +8,7 @@ import android.os.Bundle;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
 
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -48,9 +49,17 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
     @Override
     public void onClick(View view) {
         if (view.getId() == R.id.btn_to_category) {
-            Log.d(TAG, "onClick: btncategory ");
 
-            Toast.makeText(getActivity(), "this to category", Toast.LENGTH_SHORT).show();
+            FragmentManager fragmentManager = getFragmentManager();
+            CategoryFragment categoryFragment = new CategoryFragment();
+            if (fragmentManager != null) {
+
+                fragmentManager
+                        .beginTransaction()
+                        .replace(R.id.frame_container, categoryFragment, CategoryFragment.class.getSimpleName())
+                        .addToBackStack(null)
+                        .commit();
+            }
         }
     }
 }

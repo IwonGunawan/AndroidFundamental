@@ -64,6 +64,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Log.d("alo", "ini breakpoint android");
         prepare();
         addItem();
     }

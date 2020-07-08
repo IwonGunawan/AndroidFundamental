@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Unit Testing</string>
+    <string name="length">Length</string>
+    <string name="width">Width</string>
+    <string name="height">Height</string>
+    <string name="save">SAVE</string>
+    <string name="calculate_volume">Volume</string>
+    <string name="calculate_circumference">Circumference</string>
+    <string name="calculate_surface_area">Surface Area</string>
+    <string name="result">RESULT</string>
+</resources>

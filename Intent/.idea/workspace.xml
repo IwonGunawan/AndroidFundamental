@@ -7,16 +7,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89bb19ff-eae2-48cd-ab17-60e5dd1388e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Fragment/app/src/main/java/com/fundamental/fragment/CategoryFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Fragment/app/src/main/java/com/fundamental/fragment/DetailFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Fragment/app/src/main/java/com/fundamental/fragment/OptionDialogFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Fragment/app/src/main/res/layout/fragment_category.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Fragment/app/src/main/res/layout/fragment_detail.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Fragment/app/src/main/res/layout/fragment_option_dialog.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fragment/app/src/main/java/com/fundamental/fragment/HomeFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Fragment/app/src/main/java/com/fundamental/fragment/HomeFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fragment/app/src/main/res/layout/fragment_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Fragment/app/src/main/res/layout/fragment_home.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Fragment/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Fragment/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GithubUserApp/app/src/main/java/com/app/githubuser/DetailActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GithubUserApp/app/src/main/java/com/app/githubuser/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GithubUserApp/app/src/main/java/com/app/githubuser/UsersAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GithubUserApp/app/src/main/res/drawable/user1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GithubUserApp/app/src/main/res/drawable/user10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GithubUserApp/app/src/main/res/drawable/user2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GithubUserApp/app/src/main/res/drawable/user3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GithubUserApp/app/src/main/res/drawable/user4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GithubUserApp/app/src/main/res/drawable/user5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GithubUserApp/app/src/main/res/drawable/user6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GithubUserApp/app/src/main/res/drawable/user7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GithubUserApp/app/src/main/res/drawable/user8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GithubUserApp/app/src/main/res/drawable/user9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GithubUserApp/app/src/main/res/layout/activity_detail.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GithubUserApp/app/src/main/res/layout/item_user.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GithubUserApp/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../GithubUserApp/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GithubUserApp/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GithubUserApp/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GithubUserApp/app/src/main/java/com/app/githubuser/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GithubUserApp/app/src/main/java/com/app/githubuser/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GithubUserApp/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GithubUserApp/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GithubUserApp/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GithubUserApp/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ListView/app/src/main/java/com/fundamental/listview/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ListView/app/src/main/java/com/fundamental/listview/MainActivity.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +38,7 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="SOY5HQIZORCIBERO" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_XL_API_28_Pie" />
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
@@ -40,37 +51,29 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fundamental/intent/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="82" column="35" selection-start-line="82" selection-start-column="19" selection-end-line="82" selection-end-column="35" />
+            <state relative-caret-position="375">
+              <caret line="64" column="72" selection-start-line="64" selection-start-column="66" selection-end-line="64" selection-end-column="72" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-          <provider editor-type-id="android-designer2" />
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fundamental/intent/IntentWithObjectActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+            <state>
+              <caret column="4" lean-forward="true" selection-start-column="4" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_intent_with_result.xml">
-          <provider editor-type-id="android-designer2" />
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fundamental/intent/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fundamental/intent/IntentWithResultActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="54" column="46" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="46" />
+            <state relative-caret-position="260">
+              <caret line="64" column="32" lean-forward="true" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -100,8 +103,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1295" />
+    <option name="x" value="683" />
+    <option name="y" value="29" />
+    <option name="width" value="1024" />
     <option name="height" value="975" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -110,47 +114,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane" />
       <pane id="Scope" />
-      <pane id="AndroidView">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Intent" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-            </path>
-            <path>
-              <item name="Intent" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="Intent" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="intent" type="cbb59c9e:AndroidPsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Intent" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java (generated)" type="edd41e36:AndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="Intent" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-            </path>
-            <path>
-              <item name="Intent" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -309,11 +276,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1295" height="975" extended-state="0" />
+    <frame x="683" y="29" width="1024" height="975" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.16360734" />
+      <window_info content_ui="combo" id="Project" order="1" weight="0.3706721" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Build Variants" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
@@ -330,7 +297,7 @@
       <window_info anchor="bottom" id="Debug" order="5" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Build" order="8" weight="0.32906976" />
+      <window_info active="true" anchor="bottom" id="Build" order="8" visible="true" weight="0.32906976" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
@@ -359,45 +326,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fundamental/intent/IntentWithObjectActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fundamental/intent/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#182#183#0" expanded="true" />
-            <element signature="e#209#210#0" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-            <element signature="e#369#370#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#431#432#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
-            <element signature="e#501#502#0" expanded="true" />
-            <element signature="e#535#536#0" expanded="true" />
-            <element signature="e#566#567#0" expanded="true" />
-            <element signature="e#593#594#0" expanded="true" />
-            <element signature="e#633#634#0" expanded="true" />
-            <element signature="e#665#666#0" expanded="true" />
-            <element signature="e#797#798#0" expanded="true" />
-            <element signature="e#821#822#0" expanded="true" />
-            <element signature="e#1348#1349#0" expanded="true" />
-            <element signature="e#1393#1394#0" expanded="true" />
-            <element signature="e#1457#1458#0" expanded="true" />
-            <element signature="e#1504#1505#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
       <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
@@ -416,15 +344,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fundamental/intent/IntentWithResultActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
+        <state relative-caret-position="500">
           <caret line="54" column="46" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fundamental/intent/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="64" column="32" lean-forward="true" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fundamental/intent/IntentWithObjectActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" lean-forward="true" selection-start-column="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fundamental/intent/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="82" column="35" selection-start-line="82" selection-start-column="19" selection-end-line="82" selection-end-column="35" />
+        <state relative-caret-position="375">
+          <caret line="64" column="72" selection-start-line="64" selection-start-column="66" selection-end-line="64" selection-end-column="72" />
         </state>
       </provider>
     </entry>

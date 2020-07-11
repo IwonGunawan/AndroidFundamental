@@ -62,11 +62,11 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        prepare();
+        init();
         addItem();
     }
 
-    public void prepare() {
+    public void init() {
         dataUsername    = getResources().getStringArray(R.array.username);
         dataName        = getResources().getStringArray(R.array.name);
         dataLocation    = getResources().getStringArray(R.array.location);

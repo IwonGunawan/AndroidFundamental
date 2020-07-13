@@ -6,29 +6,7 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89bb19ff-eae2-48cd-ab17-60e5dd1388e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../GithubUserApp/app/src/main/java/com/app/githubuser/DetailActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GithubUserApp/app/src/main/java/com/app/githubuser/Users.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GithubUserApp/app/src/main/java/com/app/githubuser/UsersAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GithubUserApp/app/src/main/res/drawable/user1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GithubUserApp/app/src/main/res/drawable/user10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GithubUserApp/app/src/main/res/drawable/user2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GithubUserApp/app/src/main/res/drawable/user3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GithubUserApp/app/src/main/res/drawable/user4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GithubUserApp/app/src/main/res/drawable/user5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GithubUserApp/app/src/main/res/drawable/user6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GithubUserApp/app/src/main/res/drawable/user7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GithubUserApp/app/src/main/res/drawable/user8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GithubUserApp/app/src/main/res/drawable/user9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GithubUserApp/app/src/main/res/layout/activity_detail.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GithubUserApp/app/src/main/res/layout/item_user.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GithubUserApp/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../GithubUserApp/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GithubUserApp/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GithubUserApp/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GithubUserApp/app/src/main/java/com/app/githubuser/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GithubUserApp/app/src/main/java/com/app/githubuser/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GithubUserApp/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GithubUserApp/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GithubUserApp/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GithubUserApp/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ListView/app/src/main/java/com/fundamental/listview/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ListView/app/src/main/java/com/fundamental/listview/MainActivity.java" afterDir="false" />
-    </list>
+    <list default="true" id="89bb19ff-eae2-48cd-ab17-60e5dd1388e1" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +16,7 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_XL_API_28_Pie" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="SOY5HQIZORCIBERO" />
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
@@ -61,7 +39,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fundamental/intent/IntentWithObjectActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="4" lean-forward="true" selection-start-column="4" selection-end-column="4" />
+              <caret column="4" selection-start-column="4" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -70,7 +48,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fundamental/intent/Person.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="260">
-              <caret line="64" column="32" lean-forward="true" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
+              <caret line="64" column="32" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -352,7 +330,7 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fundamental/intent/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
-          <caret line="64" column="32" lean-forward="true" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
+          <caret line="64" column="32" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -362,7 +340,7 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/fundamental/intent/IntentWithObjectActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="4" lean-forward="true" selection-start-column="4" selection-end-column="4" />
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>

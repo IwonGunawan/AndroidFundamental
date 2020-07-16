@@ -13,10 +13,11 @@
     Video playback: up to 13 hours\n
     Audio playback (via headset): up to 110 hours\n
     Fast charging: up to 7 hours of use from only 15 minutes of charging</string>
-    <string name="price">$735</string>
+    <string name="price">Rp 32.000</string>
     <string name="photo_small">6 photo</string>
     <string name="specification">Spesification</string>
     <string name="seller_name">Narendra Wicaksono</string>
     <string name="buy">Buy</string>
+    <string name="stock">available stock : 5pcs</string>
 
 </resources>

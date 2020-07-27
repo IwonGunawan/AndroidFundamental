@@ -17,10 +17,19 @@ import java.util.ArrayList;
 public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ListViewHolder> {
 
     private ArrayList<Hero> listHero;
+    private OnItemClickCallback onItemClickCallback;
+
+
 
     public ListAdapter(ArrayList<Hero> list) {
         this.listHero = list;
     }
+
+
+    public void setOnItemClickCallback(OnItemClickCallback onItemClickCallback) {
+        this.onItemClickCallback = onItemClickCallback;
+    }
+
 
     @NonNull
     @Override
@@ -30,17 +39,23 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ListViewHolder
     }
 
     @Override
-    public void onBindViewHolder(@NonNull ListViewHolder holder, int position) {
-        Hero hero = listHero.get(position);
+    public void onBindViewHolder(@NonNull final ListViewHolder holder, int position) {
+        final Hero hero = listHero.get(position);
 
         Glide.with(holder.itemView.getContext())
                 .load(hero.getPhoto())
                 .apply(new RequestOptions().override(55, 55))
                 .into(holder.imageView);
 
-
         holder.tvName.setText(hero.getName());
         holder.tvDescription.setText(hero.getDescription());
+
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                onItemClickCallback.onItemClicked(listHero.get(holder.getAdapterPosition()));
+            }
+        });
     }
 
     @Override
@@ -61,4 +76,10 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ListViewHolder
             tvDescription = itemView.findViewById(R.id.tv_description);
         }
     }
+
+    public interface OnItemClickCallback {
+        void onItemClicked(Hero data);
+    }
+
+
 }

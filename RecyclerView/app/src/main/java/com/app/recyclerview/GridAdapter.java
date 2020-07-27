@@ -14,12 +14,16 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 public class GridAdapter extends RecyclerView.Adapter<GridAdapter.GridViewHolder> {
-    private ArrayList<Hero> gridHero = new ArrayList<>();
+    private ArrayList<Hero> gridHero;
+    private OnItemClickCallback onItemClickCallback;
 
     GridAdapter(ArrayList<Hero> list) {
         gridHero = list;
     }
 
+    public void setOnItemClickCallback(OnItemClickCallback onItemClickCallback) {
+        this.onItemClickCallback = onItemClickCallback;
+    }
 
     @NonNull
     @Override
@@ -29,11 +33,20 @@ public class GridAdapter extends RecyclerView.Adapter<GridAdapter.GridViewHolder
     }
 
     @Override
-    public void onBindViewHolder(@NonNull GridViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull final GridViewHolder holder, int position) {
+        Hero hero = gridHero.get(position);
+
         Glide.with(holder.itemView.getContext())
-                .load(gridHero.get(position).getPhoto())
+                .load(hero.getPhoto())
                 .apply(new RequestOptions().override(350, 550))
                 .into(holder.imgView);
+
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                onItemClickCallback.onItemClicked(gridHero.get(holder.getAdapterPosition()));
+            }
+        });
     }
 
     @Override
@@ -49,5 +62,9 @@ public class GridAdapter extends RecyclerView.Adapter<GridAdapter.GridViewHolder
 
             imgView = itemView.findViewById(R.id.img_photo_grid);
         }
+    }
+
+    public interface OnItemClickCallback {
+        void onItemClicked(Hero data);
     }
 }

@@ -2,20 +2,21 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content">
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/img_photo"
         android:layout_width="55dp"
         android:layout_height="55dp"
-        android:layout_marginRight="4dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="8dp"
         tools:src="@android:color/darker_gray"/>
 
     <LinearLayout
         android:id="@+id/lL_list"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="8dp"
         android:layout_toRightOf="@+id/img_photo"
         android:layout_toEndOf="@+id/img_photo"
         android:orientation="vertical">
@@ -32,6 +33,7 @@
             android:id="@+id/tv_description"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:maxLines="2"
             tools:text="@string/description" />
 
     </LinearLayout>

@@ -6,7 +6,7 @@ import android.os.Parcelable;
 public class Hero implements Parcelable {
     private String name;
     private String description;
-    private String photo;
+    private int photo;
 
     public Hero() {
     }
@@ -14,7 +14,7 @@ public class Hero implements Parcelable {
     protected Hero(Parcel in) {
         name = in.readString();
         description = in.readString();
-        photo = in.readString();
+        photo = in.readInt();
     }
 
     public static final Creator<Hero> CREATOR = new Creator<Hero>() {
@@ -45,11 +45,11 @@ public class Hero implements Parcelable {
         this.description = description;
     }
 
-    public String getPhoto() {
+    public int getPhoto() {
         return photo;
     }
 
-    public void setPhoto(String photo) {
+    public void setPhoto(int photo) {
         this.photo = photo;
     }
 
@@ -62,6 +62,6 @@ public class Hero implements Parcelable {
     public void writeToParcel(Parcel parcel, int i) {
         parcel.writeString(name);
         parcel.writeString(description);
-        parcel.writeString(photo);
+        parcel.writeString(String.valueOf(photo));
     }
 }

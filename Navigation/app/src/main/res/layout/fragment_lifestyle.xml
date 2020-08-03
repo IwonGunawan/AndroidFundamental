@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LifestyleFragment">
+
+    <TextView
+        android:id="@+id/tv_lifestyle_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginTop="18dp"
+        android:text="Lifestyle Name" />
+
+    <TextView
+        android:id="@+id/tv_lifestyle_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_lifestyle_name"
+        android:gravity="center"
+        android:text="Lifestyle Description" />
+
+
+    <Button
+        android:id="@+id/btn_lifestyle_back"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_below="@+id/tv_lifestyle_desc"
+        android:text="Back" />
+
+</RelativeLayout>

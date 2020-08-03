@@ -6,11 +6,22 @@
     tools:context=".CategoryFragment">
 
     <TextView
+        android:id="@+id/tv_category"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="18sp"
         android:layout_centerVertical="true"
         android:gravity="center"
         android:text="This Category (Fragment)" />
+
+    <Button
+        android:id="@+id/btn_category_lifestyle"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_below="@+id/tv_category"
+        android:text="Lifestyle" />
 
 </RelativeLayout>

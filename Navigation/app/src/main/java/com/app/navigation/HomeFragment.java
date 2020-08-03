@@ -17,6 +17,8 @@ import android.widget.Button;
 //2. NavController
 public class HomeFragment extends Fragment {
 
+    Button btnToCategory, btnToProfile;
+
     public HomeFragment() {
         // Required empty public constructor
     }
@@ -33,8 +35,8 @@ public class HomeFragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        Button btnToCategory = view.findViewById(R.id.btn_to_category);
-        Button btnToProfile = view.findViewById(R.id.btn_to_profile);
+        btnToCategory = view.findViewById(R.id.btn_to_category);
+        btnToProfile = view.findViewById(R.id.btn_to_profile);
 
         btnToCategory.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.action_homeFragment_to_categoryFragment));
 

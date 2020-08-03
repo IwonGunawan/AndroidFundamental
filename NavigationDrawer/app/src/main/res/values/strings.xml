@@ -13,4 +13,11 @@
     <string name="menu_tools">Tools</string>
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
+
+    <string name="narenda_wicaksono">Narenda Wicaksono</string>
+    <string name="narenda_dicoding_com">narenda@dicoding.com</string>
+    <string name="menu_cart">Cart</string>
+    <string name="menu_map">Maps</string>
+    <string name="menu_hotel">Hotel</string>
+    <string name="menu_subway">Subway</string>
 </resources>

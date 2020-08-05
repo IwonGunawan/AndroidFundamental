@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Background Thread</string>
+    <string name="status_pre">onPreExecute</string>
+    <string name="status_post">onPostExecute</string>
+</resources>
